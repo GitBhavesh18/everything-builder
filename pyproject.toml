@@ -1,7 +1,7 @@
 [project]
 name = "fastapi-fullstack"
 version = "0.2.19"
-description = "Full-stack FastAPI + Next.js template generator with PydanticAI/LangChain agents, WebSocket streaming, 20+ enterprise integrations, and Logfire/LangSmith observability. Ship AI apps fast. CLI tool to generate production-ready FastAPI + Next.js projects with AI agents, auth, and observability."
+description = "Local clone and template generator for production-ready FastAPI + Next.js AI apps with PydanticAI/LangChain agents, RAG, auth, and observability tooling."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }

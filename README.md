@@ -1,47 +1,61 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="Full-Stack AI Agent Template logo" width="96" />
+</p>
+
 <h1 align="center">Full-Stack AI Agent Template</h1>
 
 <p align="center">
-  <i>Production-ready FastAPI + Next.js project generator with AI agents, RAG, and 20+ enterprise integrations.</i>
+  <i>Zero to production AI app in minutes.</i>
 </p>
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
-  <a href="#-features">Features</a> •
   <a href="#-demo">Demo</a> •
-  <a href="https://vstorm-co.github.io/full-stack-ai-agent-template/">Documentation</a> •
-  <a href="https://oss.vstorm.co/projects/full-stack-ai-agent-template/configurator/">Configurator</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="https://vstorm-co.github.io/full-stack-ai-agent-template/">Docs</a> •
   <a href="https://pypi.org/project/fastapi-fullstack/">PyPI</a>
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/fastapi-fullstack/"><img src="https://img.shields.io/pypi/v/fastapi-fullstack?color=green&logo=pypi&logoColor=white" alt="PyPI"></a>
-  <a href="https://pepy.tech/projects/fastapi-fullstack"><img src="https://static.pepy.tech/badge/fastapi-fullstack/month" alt="PyPI Downloads"></a>
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/stargazers"><img src="https://img.shields.io/github/stars/vstorm-co/full-stack-ai-agent-template?style=flat&logo=github&color=yellow" alt="GitHub Stars"></a>
+  <a href="https://pypi.org/project/fastapi-fullstack/"><img src="https://img.shields.io/pypi/v/fastapi-fullstack?color=green&logo=pypi&logoColor=white" alt="PyPI version"></a>
+  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/stargazers"><img src="https://img.shields.io/github/stars/vstorm-co/full-stack-ai-agent-template?style=flat&logo=github&color=yellow" alt="GitHub stars"></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue?logo=python&logoColor=white" alt="Python 3.11+"></a>
   <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/vstorm-co/full-stack-ai-agent-template?color=blue" alt="License"></a>
-  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage">
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/actions/workflows/ci.yml"><img src="https://github.com/vstorm-co/full-stack-ai-agent-template/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/security-policy-blueviolet?logo=shieldsdotio&logoColor=white" alt="Security Policy"></a>
-  <a href="https://www.bestpractices.dev/projects/12539"><img src="https://www.bestpractices.dev/projects/12539/badge" alt="OpenSSF Best Practices"></a>
-  <a href="https://github.com/pydantic/pydantic-ai"><img src="https://img.shields.io/badge/Powered%20by-Pydantic%20AI-E92063?logo=pydantic&logoColor=white" alt="Pydantic AI"></a>
-  <a href="https://x.com/Kacper95682155"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" alt="X"></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_demo_with_tasks.gif" alt="AI chat with live plan & task checklist" width="100%">
+  <img src="assets/new3/landing_hero.png" alt="Project landing page screenshot" width="100%" />
 </p>
 
 <p align="center">
-  <b>🤖 5 AI Agent Frameworks</b> <i>(PydanticAI, PydanticDeep, LangChain, LangGraph, DeepAgents)</i>
+  <b>🤖 6 AI Frameworks</b> <i>(PydanticAI, PydanticDeep, LangChain, LangGraph, DeepAgents, plus CLI integration)</i>
   <br>
   <b>📄 RAG Pipeline</b> <i>(Milvus, Qdrant, pgvector, ChromaDB)</i>
   <br>
-  <b>⚡ FastAPI + Next.js 15</b> <i>(WebSocket streaming, real-time chat UI)</i>
+  <b>⚡ FastAPI + Next.js 15</b> <i>(real-time chat, auth, admin, billing)</i>
   <br>
-  <b>🔗 Conversation Sharing</b> <i>(direct sharing, public links, admin browser)</i>
-  <br>
-  <b>🔒 Enterprise-Ready</b> <i>(JWT, OAuth, admin panel, Celery, Docker, K8s)</i>
+  <b>🔒 Production Ready</b> <i>(JWT, Docker, Redis, PostgreSQL, observability)</i>
 </p>
+
+> This repository is a local clone for experimentation and custom changes. The base template remains the same, and the README below is set up for a polished GitHub presentation.
+
+## Local Quick Start
+
+```bash
+# install dependencies
+python -m venv .venv
+. .venv\Scripts\activate
+pip install -U pip
+pip install -e .[dev]
+
+# run the CLI
+fastapi-fullstack --help
+
+# run tests
+pytest
+```
+
+This project works as a starter template, a learning repo, or a foundation for your own AI product.
 
 <details>
 <summary><b>Table of Contents</b></summary>
